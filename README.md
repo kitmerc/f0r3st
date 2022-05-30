@@ -32,18 +32,18 @@ OSError: [Errno 24] Too many open files
 ```
 There is nothing wrong with it, you just did not have enough file descriptors (in most Unix systems their limit is 1024). You just need to increase the limit:
 ```
-ulimit -n 2000
+$ ulimit -n 2000
 ```
 If that doesn't help, increase it some more.
 
 3)You can run the script either with the interpreter itself, or just give bash a chance:
 ```
-chmod +x f0r3st.py
-./f0r3st.py --option
+$ chmod +x f0r3st.py
+$ ./f0r3st.py --option
 ```
 or
 ```
-python3 f0r3st.py --option
+$ python3 f0r3st.py --option
 ```
 
 
@@ -72,7 +72,7 @@ The very last
 ```
 -v
 ```
-key will show you the host system (at least nmap will try to detect it). It is up to you if you don't want to use it.
+key will show you the host system (at least nmap will try to detect it). It is up to you if you don't want to use it. If you are going to use it - install Nmap.
 
 Typical program output:
 ```
@@ -91,5 +91,7 @@ Total time: 6sec
 
                 i wish you good finds! goodbye...
                 
+```
+```
 ```
 Use it wisely. I hope it comes in handy)
