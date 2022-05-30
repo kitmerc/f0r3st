@@ -6,7 +6,7 @@
                                            /_/    \____/_/ |_/____/____//_/
 
 ```
-F0R3ST - the fast port-scanner on Python(on SYN connections).
+F0R3ST - the fast port-scanner on Python(on SYN connections with threads).
 
 The script was developed as a console utility, written for Python 3.7 (not sure if it will work on lower versions).
 
