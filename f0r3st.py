@@ -85,6 +85,9 @@ if("-host" in sys.argv):
     except IndexError:
         print("Something wrong, see -help")
         exit()
+else:
+    print("Something wrong, see -help")
+    exit()
 if("-port" in sys.argv):
     start_index_second=sys.argv.index("-port")
     try:
